@@ -1,1 +1,9 @@
 this is a new branch for testing
+
+git checkout -b testing
+git remote get-url origin
+nano testing
+git add .
+git commit -a
+git push -u origin
+git push -u origin testing
