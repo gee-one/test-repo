@@ -1,8 +1,13 @@
-#test-repo
+# test-repo
 
 this is a repo for testing
 
-#create new repo from command line
+# push commits to existing repo 
+
+git push -u origin master
+
+
+# create new repo from command line
 
 echo "# test-repo" >> README.md
 git init
@@ -12,13 +17,13 @@ git remote add origin git@github.com:gee-one/<repo_name_goes_here>.git
 git push -u origin master
 
 
-#push existing repo from command line
+# push existing repo from command line
 
 git remote add origin git@github.com:gee-one/<repo_name_goes_here>.git
 git push -u origin master
 
 
-#set push to use ssh instead of https
+# set push to use ssh instead of https
 
 git remote get-url --all origin
 git remote get-url --push origin
