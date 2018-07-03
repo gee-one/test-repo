@@ -36,3 +36,7 @@ git remote get-url --all origin
 git remote get-url --push origin
 
 git remote set-url  origin git@github.com:gee-one/<repo_name_goes_here>.git
+
+# use gpg to sign commits
+
+
