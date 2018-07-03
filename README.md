@@ -39,4 +39,4 @@ git remote set-url  origin git@github.com:gee-one/<repo_name_goes_here>.git
 
 # use gpg to sign commits
 be sure to update .bashrc and don't forget the password
-
+git commit -S -a {-m your commit message}
